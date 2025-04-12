@@ -25,8 +25,8 @@ I tested all three versions of the applications with the most primitive prompt:
 > ```
 
 And got the following results on the gpt-4 and gpt-4o models:
-- 1) Both models were misled when given the code with the error from the paper.
-- 2-3) Both models gave correct answers in cases where the code was correct but contained vulnerabilities.
+1) Both models were misled when given the code with the error from the paper.
+2) and 3.: Both models gave correct answers in cases where the code was correct but contained vulnerabilities.
 
 Hence, a dilemma arises, which often comes up when working with LLMs as code copilots:  
 > If the question is asked directly: "is there a vulnerability (yes/no/don’t know) in the code?...", should the LLM also account for programmatic errors that would prevent the code from running?  
